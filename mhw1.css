@@ -1,0 +1,328 @@
+body {
+    background-color:rgb(237, 208, 223);
+    margin: 0;
+  ;}
+
+  a {
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(231, 171, 191);
+    color: white;
+    padding: 5px 10px;
+    
+  }
+  a.a{
+      padding: 10px 10px;
+      border: 6px solid black;
+      
+  }
+  a.a:hover{
+           background-color: rgba(255,255,255, 0.7);
+           color: rgba(37,37,37,0.6);
+          
+  }
+  #links a{
+         margin:15px;
+         
+  }
+ 
+  #logo{
+        font-size:30px;
+        color:black;
+        font-family:'Open Sans', sans-serif;
+        
+  
+  }
+  header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://www.justnerd.it/wp-content/uploads/2022/10/black-clover-anime-film.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex-direction:column;
+    padding-bottom: 60px;
+    height:500px;
+  }
+  header nav{
+  
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    font-size: 14px;
+    padding: 20px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header strong{
+           font-family:'Open Sans',sans-serif;
+           text-align:center;
+           color:black;
+           font-size: 40px;
+  
+  }
+  
+  section{
+         text-align: center;
+          flex-direction: column;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          border:0px;
+          width:66,67%; 
+  
+  }
+  #main{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 0;
+  display: inline-block;
+    
+  }
+  #main img{
+    width: 100%;
+  }
+  #main h1{
+   
+    font-size: 28px;
+    font-weight: normal;
+    color:rgba(37,37,37,0.6);
+    
+  }
+  
+  #profile {
+          display:flex;
+          flex-direction:column;
+          position:relative;
+          height:100px;
+          justify-content:center;
+          align-items:center;
+          padding-bottom:60px;
+               
+  }
+  #profile img{
+              
+               width:100px;  
+               border-radius:50px;
+               border: 4px solid black;
+               
+              
+  }
+  #nome{
+          
+          font-family:sans-serif;
+          font-size:15px;
+          color: black;
+          text-align:center;
+          padding-bottom:60px;
+          
+  }
+
+#main span{
+  font-size:15px;
+}
+ 
+#main p{
+  position:center;
+  font-size: 15px;
+  color:black;
+  width: 80%;
+ 
+}
+ 
+footer{
+    background-color: black;
+    height:80px;
+    border:10px solid rgb(237, 208, 223) ;
+}
+footer h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color:white;
+}
+
+
+ol li {
+  counter-increment: list;
+  list-style-type:none;
+  position:relative;
+  
+}
+ol li:before {
+  color: #353332;
+  content: counter(list) ".";
+  left:-72px;
+  position: absolute;
+  text-align: center;
+  width: 26px;
+  font-size: 25px;
+  align-items: center;
+}
+#main img{
+  position:center;
+  margin-top:20px;
+  
+  border: 6px solid rgba(37,37,37,0.6);
+  margin-bottom: 120px;;
+}
+
+#menu {
+  display: none;
+}
+
+#menu div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+  
+@media (max-width: 900px) {
+  header {
+    width: 100%;
+    height: 300px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 900px) {
+  header h1 strong{
+    font-size: 2em;
+    letter-spacing: 4px;
+  }
+  @media (max-width: 900px) {
+    section {
+      margin: 40px 10px;
+    }
+  }
+  @media (max-width: 900px) {
+    #logo {
+      font-size: 1em;
+    }
+  }
+  @media (max-width: 900px) {
+    body {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  #main p { 
+    width: 90%;
+    margin-bottom: 2em;
+    
+  }
+}
+@media (max-width: 900px) {
+  #links {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+}
+
+
+@media (max-width: 900px) {
+  #main { 
+    width: 80%;
+    margin-bottom: 2em;
+    
+  }
+}
+
+#tipo :hover{
+  background-color: rgba(255,255,255, 0.7);
+  color: rgba(37,37,37,0.6);
+}
+#tipo {
+   
+    font-weight: bold;
+    border-radius:5px;
+    background-color: rgb(228, 128, 161);
+    padding: 5px 10px;
+    
+}
+#content {
+  border-radius: 5px;
+  background-color:rgb(228, 128, 161) ;
+}
+.submit{
+       border-radius: 5px;
+       background-color: rgb(228, 128, 161);
+}
+
+form {
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+article {
+	margin: 20px 0;
+	background-color: rgba(0,0,0,0.1);
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+#album-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#album-view .album {
+  margin: 10px;
+  border: 1px solid slategray;
+  padding: 10px;
+  max-width: 230px;  
+  max-height: 230px; 
+  display: flex;
+  flex-direction:column;
+  cursor: pointer;
+  background-color: white; 
+  
+}
+
+#album-view .album:hover {
+	background-color: #b4ebce;
+}
+
+#album-view img {
+	max-width: 100%;
+	max-height: 70%;
+}
+
+
+#modale.hidden {
+	display: none; 
+}
+
+#modale {
+	position: fixed;
+	top: -20;
+	left: 0;
+	height: 100%;
+	width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+	z-index: 2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; 
+}
+
+#modale img {
+	height: 50%;
+	border: 1px solid black;
+}
